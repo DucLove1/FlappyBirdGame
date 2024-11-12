@@ -10,8 +10,6 @@ public class Pipe_move : MonoBehaviour
     private void Start()
     {
         minLeft = Camera.main.ScreenToWorldPoint(Vector3.zero).x - 1;
-        Debug.Log("Hello World");
-        Debug.Log("Hello vcl")
     }
     void Update()
     {
